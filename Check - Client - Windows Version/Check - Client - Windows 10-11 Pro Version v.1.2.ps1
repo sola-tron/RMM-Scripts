@@ -57,17 +57,17 @@ $OSVersion = $productName +" - Build " + $currentBuild + "." + $UBR + $win
 
 if ($supportended) {
 	write-host "$OSVersion | ERROR: Support abgelaufen."
-    #exit 1001
+    exit 1001
 
 } elseif ($daysToSupportEnd -lt 1) {
 	write-host "$OSVersion | ERROR: Support seit $(-$daysToSupportEnd) Tagen abgelaufen."
-	#exit 1002
+	exit 1002
     
 } elseif ($daysToSupportEnd -lt $supportEndWarning) {
 	write-host "$OSVersion | WARNUNG: Support endet in $daysToSupportEnd Tagen."
-	#exit 1003
+	exit 1003
 
 } else {
 	write-host "$OSVersion | INFO: Support endet in $daysToSupportEnd Tagen"
-    #exit 0
+    exit 0
 }
