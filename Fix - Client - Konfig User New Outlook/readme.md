@@ -13,6 +13,8 @@ Die Registry-Keys habe ich nach bestem Wissen und Gewissen zusammengesucht :)
 Das Script lädt die LGPO.exe sowie die vorbereitete registry.pol herunter und wendet sie lokal an.
 Über `Start-Process` wird der Standardoutput und -Error in Textdateien umgeleitet und in `$folder_fixes` abgelegt
 
+Getestet mit n-able RMM als Aufgabe, sollte aber auch in anderen RMMs sowie Standalone laufen.
+
 Die registry.pol kann anhand der 'konfig-user-new-outlook.registry.txt' erstellt werden:
 ```
 LGPO.exe /r konfig-user-new-outlook.registry.txt /w konfig-user-new-outlook.registry.pol
