@@ -1,0 +1,47 @@
+; ----------------------------------------------------------------------
+; PARSING User POLICY
+; Source file:  backup\{D5D01526-C2DD-4417-A1E7-0250AFD8EB9E}\DomainSysvol\GPO\User\registry.pol
+
+User
+Software\Policies\Microsoft\office\16.0\Outlook\Preferences
+NewOutlookMigrationUserSetting
+DWORD:0
+
+User
+Software\Policies\Microsoft\office\16.0\Outlook\Preferences
+UseNewOutlook
+DWORD:0
+
+User
+software\policies\microsoft\office\16.0\outlook\options\general
+donewoutlookautomigration
+DWORD:0
+
+User
+software\policies\microsoft\office\16.0\outlook\options\general
+hidenewoutlooktoggle
+DWORD:1
+
+User
+Software\Microsoft\office\16.0\Outlook\Preferences
+NewOutlookMigrationUserSetting
+DWORD:0
+
+User
+Software\Microsoft\office\16.0\Outlook\Preferences
+UseNewOutlook
+DWORD:0
+
+User
+Software\Microsoft\office\16.0\Outlook\Options\General
+DoNewOutlookAutoMigration
+DWORD:0
+
+User
+Software\Microsoft\office\16.0\Outlook\Options\General
+HideNewOutlookToggle
+DWORD:1
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------
+
