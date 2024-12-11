@@ -4,6 +4,7 @@ Die Registry-Keys habe ich nach bestem Wissen und Gewissen zusammengesucht :)
 - https://www.borncity.com/blog/2024/11/08/migration-outlook-classic-zu-new-outlook-anfang-2025-auch-fuer-business-kunden/
 - https://www.heise.de/news/Microsoft-verteilt-das-neue-Outlook-ab-Januar-an-Business-Kunden-10010043.html
 - https://jans.cloud/2024/11/outlook-new-zwangsumstellung-am-06-01-2025/
+- https://apps.datev.de/help-center/documents/1037821
 
 
 ### Benötigt werden
